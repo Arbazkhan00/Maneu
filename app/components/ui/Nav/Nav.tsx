@@ -9,8 +9,8 @@ import Logo from "@/app/components/assest/images/Logo.webp"
 const Nav = () => {
   return (
     <div className='px-36 py-10'>
-        <header >
-            <nav className='flex gap-20 '>
+        <header className='sm:flex-col' >
+            <nav className='flex gap-20 sm:flex-col'>
               <div>
                 <Image src={Logo} alt='Logo'/>
               </div>
@@ -21,7 +21,7 @@ const Nav = () => {
                     <li>All Products</li>
                     </ul>
                    
-                    <div className='border-gray-500  flex w-96'>
+                    <div className='border-gray-500  flex w-96 sm:flex-col'>
                     
                     <BiSearchAlt size={23}/>
                     
