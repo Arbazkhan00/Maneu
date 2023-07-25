@@ -10,23 +10,23 @@ const Nav = () => {
   return (
     <div className='px-36 py-10'>
         <header className='sm:flex-col' >
-            <nav className='flex gap-20 sm:flex-col'>
+            <nav className='flex gap-20 sm:flex-col md:flex-row'>
               <div>
                 <Image src={Logo} alt='Logo'/>
               </div>
-                <ul className='flex gap-14 ml-8 sm:flex-col'>
+                <ul className='flex gap-14 ml-8 sm:flex-col md:flex-row'>
                     <li>Male</li>
                     <li>Female</li>
                     <li>Kids</li>
                     <li>All Products</li>
                     </ul>
                    
-                    <div className='border-gray-500  flex w-96 sm:flex-col'>
+                    <div className='border-gray-500  flex  sm:flex-col md:flex-row  '>
                     
                     <BiSearchAlt size={23}/>
                     
                    
-                        <input type="search" placeholder='What you looking for'  className='w-80 text-center '/>
+                        <input type="search" placeholder='What you looking for' width={48}  className=' text-center '/>
                     </div>
 
                     <div>
