@@ -8,29 +8,30 @@ import Logo from "@/app/components/assest/images/Logo.webp"
 
 const Nav = () => {
   return (
-    <div className='px-36 py-10'>
-        <header className='sm:flex-col' >
-            <nav className='flex gap-20 sm:flex-col md:flex-row'>
-              <div>
-                <Image src={Logo} alt='Logo'/>
+    <div className='px-36 py-10 text-center items-center'>
+        <header className=' flex gap-20' >
+        <div className=' absolute xs:flex-col '>
+                <Image src={Logo} alt='Logo' />
               </div>
-                <ul className='flex gap-14 ml-8 sm:flex-col md:flex-row'>
+            <nav className='flex gap-14 xs:flex-col' >
+              
+                <ul className='flex gap-10 ml-56 xs:flex-col xs:text-center'>
                     <li>Male</li>
                     <li>Female</li>
                     <li>Kids</li>
                     <li>All Products</li>
                     </ul>
                    
-                    <div className='border-gray-500  flex  sm:flex-col md:flex-row  '>
+                    <div className='border-gray-500  flex ml-8 xs:flex-col'>
                     
                     <BiSearchAlt size={23}/>
                     
                    
-                        <input type="search" placeholder='What you looking for' width={48}  className=' text-center '/>
+                        <input type="search" placeholder='What you looking for' width={54}  className=' text-center '/>
                     </div>
 
-                    <div>
-                      <span className='absolute  text-red-600 font-semibold text-xl rounded-full w-5 h-5 pt-5 ml-2 text-center top-0 '>0</span>
+                    <div className='xs:flex-col ml-8'>
+                      <span className='absolute  text-red-600 font-semibold text-xl rounded-full w-5 h-5 pt-5 text-center top-0 '>0</span>
                       
                         <AiOutlineShopping size={28} />
 
