@@ -26,7 +26,7 @@ const Nav = () => {
       </div>
 
 
-      <div className=''><input type="search" name="" id="" placeholder='what you looking  for' className='xs:w-40 xs:h-7 xs:text-sm'/></div>
+      <div className=''><input type="search" name="" id="" placeholder='what you looking  for' className='xs:w-48 xs:h-7 xs:text-sm xs:rounded-full '/></div>
 
       <div><AiOutlineShopping size="32"/></div>
 
